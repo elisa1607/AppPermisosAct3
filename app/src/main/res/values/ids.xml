@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvRS" type="id" />
+    <item name="tvResponse" type="id" />
+    <item name="tvContactos" type="id" />
+    <item name="tvDactilar" type="id" />
+</resources>

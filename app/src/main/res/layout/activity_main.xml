@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3E5F5">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="top">
+
+        <!-- TÍTULO -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gestión de Permisos"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#4A148C"
+            android:gravity="center"
+            android:paddingBottom="24dp" />
+
+        <!-- STATUS DE PERMISOS -->
+        <TextView
+            android:id="@+id/tvDactilar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4A148C"
+            android:text="Status Permission fingerprint: "
+            android:layout_gravity="center_horizontal"/>
+
+
+        <TextView android:id="@+id/tvCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4A148C"
+            android:layout_gravity="center_horizontal"
+            android:text="Status Permission camera: " />
+
+        <TextView android:id="@+id/tvBT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4A148C"
+            android:layout_gravity="center_horizontal"
+            android:text="Status Permission BT: " />
+
+        <TextView android:id="@+id/tvEws"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4A148C"
+            android:layout_gravity="center_horizontal"
+            android:text="Status Permission External Storage: " />
+
+        <TextView android:id="@+id/tvRS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4A148C"
+            android:layout_gravity="center_horizontal"
+            android:text="Status Permission Read Storage: " />
+
+        <TextView android:id="@+id/tvInternet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4A148C"
+            android:layout_gravity="center_horizontal"
+            android:text="Status Permission Internet: " />
+
+        <TextView android:id="@+id/tvContactos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4A148C"
+            android:layout_gravity="center_horizontal"
+            android:text="Status Permission Contacts: " />
+
+        <TextView android:id="@+id/tvResponse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4A148C"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="24dp" />
+
+        <!-- BOTONES ABAJO -->
+        <Button
+            android:id="@+id/btnCheckPermission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verificar Permisos"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp"
+            android:elevation="2dp"
+            android:stateListAnimator="@null"
+            android:translationZ="2dp" />
+
+        <Button
+            android:id="@+id/btnRequestPermission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solicitar Permisos"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp"
+            android:elevation="2dp"
+            android:stateListAnimator="@null"
+            android:translationZ="2dp" />
+
+        <Button
+            android:id="@+id/btnEnableBluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Encender Bluetooth"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp"
+            android:elevation="2dp"
+            android:stateListAnimator="@null"
+            android:translationZ="2dp" />
+
+        <Button
+            android:id="@+id/btnDisableBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desactivar Bluetooth"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp"
+            android:elevation="2dp"
+            android:stateListAnimator="@null"
+            android:translationZ="2dp" />
+
+        <Button
+            android:id="@+id/btnListBTDevices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listar Dispositivos BT"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp"
+            android:elevation="2dp"
+            android:stateListAnimator="@null"
+            android:translationZ="2dp" />
+
+        <Button
+            android:id="@+id/btnOpenCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abrir Cámara"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp"
+            android:elevation="2dp"
+            android:stateListAnimator="@null"
+            android:translationZ="2dp" />
+
+        <Button
+            android:id="@+id/btnCrearArchivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crear archivo .txt"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp"
+            android:elevation="2dp"
+            android:stateListAnimator="@null"
+            android:translationZ="2dp" />
+
+        <TextView
+            android:id="@+id/tvListDevices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:padding="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginHorizontal="24dp" />
+
+        <ImageView
+            android:id="@+id/imgPreview"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:contentDescription="Vista previa de la imagen" />
+
+        <TextView
+            android:id="@+id/tvTituloArchivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre para el archivo:"
+            android:textSize="16sp"
+            android:textColor="#4A148C"
+            android:layout_marginTop="5dp" />
+
+        <EditText
+            android:id="@+id/etNombreArchivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ej: Steve_Android"
+            android:backgroundTint="#4A148C"
+            android:textColor="#4A148C"
+            android:layout_marginBottom="3dp" />
+    </LinearLayout>
+</ScrollView>
+
