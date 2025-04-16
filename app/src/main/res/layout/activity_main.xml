@@ -208,7 +208,7 @@
             android:id="@+id/etNombreArchivo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint=""
+            android:hint="Ejemplo: Elisa Dueñas"
             android:backgroundTint="#4A148C"
             android:textColor="#4A148C"
             android:layout_marginBottom="3dp" />
