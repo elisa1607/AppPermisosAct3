@@ -208,7 +208,7 @@
             android:id="@+id/etNombreArchivo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Ej: Steve_Android"
+            android:hint=""
             android:backgroundTint="#4A148C"
             android:textColor="#4A148C"
             android:layout_marginBottom="3dp" />
